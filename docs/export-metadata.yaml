@@ -1,0 +1,53 @@
+title: Modellering som gör nytta
+subtitle: Praktisk ArchiMate-modellering för arkitekter i större myndigheter
+author: Erland Lindmark
+language: sv
+difficulty: basic_to_experienced
+audience: IT-arkitekter och verksamhetsarkitekter i större statlig myndighet
+book_type: textbook_practical_handbook
+edition: '1'
+version: '0.14'
+date: '2026-05-19'
+rights: All rights reserved
+publisher: ''
+cover_image: "assets/cover/cover.png"
+identifier: urn:uuid:fcf13ffa-e3d6-4109-a250-474311893a59
+creator_role: aut
+subject: ArchiMate, enterprise architecture, arkitekturmodellering, myndighetsarkitektur
+description: En praktisk svensk lärobok om hur ArchiMate-modellering kan skapa nytta i större
+  myndigheter.
+project_slug: modellering-som-gor-nytta
+zip_naming:
+  initial: modellering-som-gor-nytta-projekt.zip
+  chapter_update: modellering-som-gor-nytta-projekt-kapitel-NN.zip
+chapters:
+- chapters/00-inledning.md
+- chapters/fran-bild-till-modell-01.md
+- chapters/vad-ska-modellen-hjalpa-oss-att-forsta-02.md
+- chapters/archimate-som-sprak-inte-som-mal-i-sig-03.md
+- chapters/modellnytta-i-en-myndighetskontext-04.md
+- chapters/verksamhetslagret-nar-det-ar-ratt-startpunkt-05.md
+- chapters/applikationslagret-fran-systemkarta-till-begriplig-modell-06.md
+- chapters/tekniklagret-nar-infrastrukturen-faktiskt-spelar-roll-07.md
+- chapters/motivation-och-strategi-att-koppla-modeller-till-varfor-08.md
+- chapters/implementation-och-migration-att-modellera-forandring-09.md
+- chapters/relationer-dar-modellens-varde-uppstar-10.md
+- chapters/vyer-for-olika-malgrupper-11.md
+- chapters/vad-man-kan-valja-bort-12.md
+- chapters/att-borja-dra-nytta-av-modeller-13.md
+- chapters/modellering-som-arbetssatt-14.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    airy_layout: true
+    render_markdown_styles: true
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    render_markdown_styles: true
+  docx:
+    enabled: true
+    render_markdown_styles: true
+  markdown:
+    enabled: true
